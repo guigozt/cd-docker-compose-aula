@@ -1,9 +1,9 @@
 services:
   app:
     build: .
-    image: guigozt/mural-flask:latest
+    image: guigozt/pudim_site:latest
     ports:
-      - "8081:5000"
+      - "8067:5000"
     environment:
       DB_HOST: db
       DB_PORT: "3306"
